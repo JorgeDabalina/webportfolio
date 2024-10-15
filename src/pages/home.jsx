@@ -72,18 +72,6 @@ function Home() {
       text: "Manipulando la luz (2024)",
       pathNav: '/projects/manipulandolaluz',
     },
-    {
-      src: '/images/home/homeIntraseñales.gif',
-      alt: '',
-      text: "Intra-señales (2023)",
-      pathNav: '/projects/exploracionEntrelazada',
-    },
-    {
-      src: '/images/home/homeManipulando.gif',
-      alt: '',
-      text: "Manipulando la luz (2024)",
-      pathNav: '/projects/exploracionEntrelazada',
-    },
   ];
 
   useEffect(() => {
