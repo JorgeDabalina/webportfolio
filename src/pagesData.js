@@ -56,7 +56,7 @@ export const pagesData = [
     },
     featured: {
       type: MEDIA_TYPE.IMAGE,
-      src: '/images/negroponte/negroponte_featured.jpg',
+      src: '/images/negroponte/negroponte_featured.webp',
       alt: 'Portada del EP Negroponte',
 
     },
@@ -93,21 +93,21 @@ export const pagesData = [
       {
         size: MEDIA_SIZE.LARGE,
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/negroponte/negroponte_4.jpg',
+        src: '/images/negroponte/negroponte_4.webp',
         alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/negroponte/negroponte_5.jpg',
+        src: '/images/negroponte/negroponte_5.webp',
         alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/negroponte/negroponte_2.jpg',
+        src: '/images/negroponte/negroponte_2.webp',
         alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
@@ -130,7 +130,7 @@ export const pagesData = [
     },
     featured: {
       type: MEDIA_TYPE.IMAGE,
-      src: '/images/entrelazada/entrelazada_featured.jpg',
+      src: '/images/entrelazada/entrelazada_featured.webp',
       alt: 'Proyección de Exploración entrelazada en la Fachada Media de Etopía (Zaragoza)',
 
 
@@ -172,7 +172,7 @@ Estreno y proyección continua durante el mes de agosto en la Fachada Media de E
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/entrelazada/entrelazada_1.jpg',
+        src: '/images/entrelazada/entrelazada_1.webp',
         alt: 'Fotografía de la fachada media proyectando Exploración',
 
       },
@@ -220,7 +220,7 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
     media: [
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/delotrolado/delotrolado_featured.jpg',
+        src: '/images/delotrolado/delotrolado_featured.webp',
         alt: 'Fotograma extraído de Del otro lado - Jorge Dabaliña',
 
       },
@@ -304,14 +304,14 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       },
     ],
 
-  },
+  }, 
 
   {
     id: 3,
     category: SECTION.PROYECTOSROSER,
     navTitle: 'Sons i sorolls',
-    pathNav: '/projects/materiaelectrica+sonsisorolls',
-    title: 'Materia eléctrica + Sons i sorolls',
+    pathNav: '/projects/sonsisorolls',
+    title: 'Sons i sorolls',
     details: {
       media: 'Instalación',
       year: '2021',
@@ -327,11 +327,16 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       texts: [
         {
           language: 'es',
-          value: `«Sons i sorolls» de Roser Domingo es una instalación sonora presentada en conjunto con «Materia Eléctrica» de Jorge Dabaliña. «Sons i sorolls» consiste en una instalación interactiva octofónica que cuestiona la relación sinestésica entre imagen y sonido. Modifica el resultado según lo que ocurre a su alrededor. Las dos propuestas se entrelazan entre sí para establecer nuevos diálogos de comunicación entre el mundo analógico y el digital y permitir una experiencia interactiva autogenerativa.`,
+          value: `«Sons i sorolls» de Roser Domingo es una instalación sonora presentada en conjunto con «Materia Eléctrica» de Jorge Dabaliña. «Sons i sorolls» consiste en una instalación interactiva octofónica que cuestiona la relación sinestésica entre imagen y sonido. Modifica el resultado según lo que ocurre a su alrededor. Las dos propuestas se entrelazan entre sí para establecer nuevos diálogos de comunicación entre el mundo analógico y el digital y permitir una experiencia interactiva autogenerativa.
+
+Instalación audiovisual interactiva expuesta y premiada en la exposición «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» de la Facultad de Bellas Artes de la Universitat Politècnica de València.`,
+        
         },
         {
           language: 'en',
-          value: `«Sons i sorolls» by Roser Domingo is a sonic installation presented with «Materia Eléctrica» by Jorge Dabaliña. «Sons i sorolls» is an interactive octophonic installation that questions the synesthetic relationship between image and sound, altering the result based on what happens around it. The two proposals intertwine to establish new dialogues of communication between the analog and digital worlds, allowing for a self-generative interactive experience.`,
+          value: `«Sons i sorolls» by Roser Domingo is a sound installation presented with «Materia Eléctrica» by Jorge Dabaliña. «Sons i sorolls» is an interactive octophonic installation that questions the synesthetic relationship between image and sound, altering the result based on what happens around it. The two proposals intertwine to establish new dialogues of communication between the analog and digital worlds, allowing for a self-generative interactive experience.
+          
+This interactive audiovisual installation was exhibited and awarded at the «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» at the Faculty of Fine Arts of the Universitat Politècnica de València.`,
         },
       ],
     },
@@ -341,28 +346,12 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
         src: '57H8hi3NkBc?si=b7wCtua3kGPXoo1_',
         alt: 'Video Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
       },
-
       {
-        type: MEDIA_TYPE.TEXT,
-        texts: [
-          {
-            language: 'es',
-            value: `Instalación audiovisual interactiva expuesta y premiada en la exposición «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» de la Facultad de Bellas Artes de la Universitat Politècnica de València.`,
-          },
-          {
-            language: 'en',
-            value: `This interactive audiovisual installation was exhibited and awarded at the «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» at the Faculty of Fine Arts of the Universitat Politècnica de València.`,
-          },
-        ]
+        type: MEDIA_TYPE.SOUNDCLOUD,
+        url: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1935387332&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        alt: 'Audio Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
       },
 
-
-
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/electrica/PAM1.webp',
-        alt: 'Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
-      },
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/electrica/PAM3.webp',
@@ -371,6 +360,12 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/electrica/PAM4.webp',
+        alt: 'Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/electrica/PAM1.webp',
         alt: 'Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
       },
     ],
@@ -450,25 +445,16 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
 
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/grados/grados3.webp',
+        src: '/images/grados/grados9.webp',
         alt: 'Proyecto 1.1 Grados exposición Espai Jove Ayuntamiento Valencia',
       },
-      /* {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/grados/grados4.webp',
-        alt: 'Proyecto 1.1 Grados exposición Espai Jove Ayuntamiento Valencia',
-      }, */
 
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/grados/grados2.webp',
         alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
       },
-      // {
-      //   type: MEDIA_TYPE.IMAGE,
-      //   src: '/images/grados/grados1.webp',
-      //   alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
-      // },
+
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/grados/grados6.webp',
@@ -514,6 +500,12 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
       }`,
       },
 
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/grados/grados8.webp',
+        alt: 'Proyecto 1.1 Grados superposición de tres capas de hexágonos',
+      },
 
     ],
   },
@@ -586,11 +578,23 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
         src: '/images/tiempo/TP5.webp',
         alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
       },
-      {
+      /* {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/tiempo/TP4.webp',
         alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
+      }, */
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/tiempo/TP7.gif',
+        alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
       },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/tiempo/TP6.webp',
+        alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
+      },
+
     ],
 
   },
@@ -656,6 +660,16 @@ Project created by Jorge Dabaliña and Roser Domingo and awarded in the 2022 «R
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/intra-señales/Intra-señales4.webp',
+        alt: 'Intra-señales Performance audiovisual A/V Juventud Espai Jove Ayuntamiento Valencia',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/intra-señales/Intra-señales5.webp',
+        alt: 'Intra-señales Performance audiovisual A/V Juventud Espai Jove Ayuntamiento Valencia',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/intra-señales/Intra-señales6.webp',
         alt: 'Intra-señales Performance audiovisual A/V Juventud Espai Jove Ayuntamiento Valencia',
       },
     ],
@@ -755,6 +769,12 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
         src: '/images/sne/SNE8.webp',
         alt: 'Instalación Sistema Nervioso Extendido PAM!PAM!22 Atarazanas Valencia',
       },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/sne/SNE5.webp',
+        alt: 'Instalación Sistema Nervioso Extendido PAM!PAM!22 Atarazanas Valencia',
+      },
     ],
   },
 
@@ -807,25 +827,25 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
       
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia3.webp',
+        src: '/images/interferencia/Interferencia3.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia4.webp',
+        src: '/images/interferencia/Interferencia4.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       {
         size: MEDIA_SIZE.LARGE,
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia1.webp',
+        src: '/images/interferencia/Interferencia1.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/interferencia/interferencia5.webp',
+        src: '/images/interferencia/Interferencia5.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
     ],
@@ -871,8 +891,6 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
       ],
     },
     media: [
-
-
       {
         type: MEDIA_TYPE.YOUTUBE,
         size: MEDIA_SIZE.MEDIUM,
@@ -911,9 +929,9 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 13 (orden 14)
   //----------------------------------------------------------------------------------------------------------------
-  {
+ {
     id: 14,
-    category: SECTION.PROYECTOSAMBOS,
+    category: SECTION.PROYECTOSJORGE,
     navTitle: 'Clock',
     pathNav: '/projects/clock',
     title: 'Clock',
@@ -953,6 +971,53 @@ Piece created by Jorge Dabaliña and Roser Domingo. First prize in the «Premios
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/clock/Clock2.webp',
+        alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
+      },
+
+    ],
+  },
+
+  {
+    id: 14,
+    category: SECTION.PROYECTOSROSER,
+    navTitle: 'Clock',
+    pathNav: '/projects/clock',
+    title: 'Clock',
+    details: {
+      media: 'A/V',
+      year: '2023',
+    },
+    featured:  {
+      type: MEDIA_TYPE.YOUTUBE,
+      src: '9rxbWAn1Ckg?si=IsvgiXKLSm3D5wMw',
+      alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
+    },
+    description: {     
+      header: null,
+      externalLink: null,
+      texts: [
+      {
+        language: 'es',
+        value:
+          `«Clock» es un poema sinestésico de luz y sonido, un carrusel estenopeico de ideas y texturas. La obra se presenta como una odisea del reloj, esa criatura mecánica y digital que dicta el pulso de nuestras vidas. Con la llegada de este utensilio, estos ritmos orgánicos y fluidos fueron divididos en segmentos uniformes e invariables: horas, minutos, segundos. Este nuevo tiempo medible y predecible cambió nuestra forma de vivir, de trabajar, de organizar nuestras sociedades. En este universo, el tiempo no es lineal sino fractal, momentos que se mezclan en un torrente de vivencias. La aceleración invoca un fantasma, una sombra parpadeante que danza en las periferias de nuestra percepción.
+
+Obra realizada por Jorge Dabaliña y Roser Domingo. Primer premio en la convocatoria de «Premios NarrArtístic y de Creatividad Musical» de la Concejalía de Juventud del Ayuntamiento de València.`},
+      {
+        language: 'en',
+        value: `«Clock» is a synesthetic poem of light and sound, a pinhole carousel of ideas and textures. The piece is presented as an odyssey of the clock, that mechanical and digital creature that dictates the pulse of our lives. With the arrival of this device, these organic and fluid rhythms were divided into uniform and invariable segments: hours, minutes, seconds. This new measurable and predictable time changed the way we live, work, and organize our societies. And in this universe, time is not linear but fractal, moments that blend into a torrent of experiences. Acceleration invokes a ghost, a flickering shadow dancing on the periphery of our perception.
+
+Piece created by Jorge Dabaliña and Roser Domingo. First prize in the «Premios NarrArtístic y de Creatividad Musical» competition by the Youth Department of the València City Council.`
+      },
+    ],},
+    media: [
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/clock/Clock2.webp',
+        alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
+      },
+      {
+        type: MEDIA_TYPE.SOUNDCLOUD,
+        url: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1933175861&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
         alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
       },
 
@@ -1093,11 +1158,54 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
         src: '/images/manipulando/Manipulando3.webp',
         alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
       },
-      {
+      /* {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/manipulando/Manipulando6.webp',
         alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+      }, */
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico1.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Sala de documentación y pieza «Idea-Imatge-Universitat Reloaded»'
       },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico2.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Modulador de luz»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico3.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «On-Off»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico4.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Batterie-Cinema»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico5.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Transductor Ecomedia» y «24 Frames»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico6.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Secuencias de continuidad»'
+      },
+
 
 
     ],
@@ -1343,24 +1451,10 @@ The premiere and continuous screening will take place throughout October at the 
       },
     ],},
     media: [
-
-
-      {
-        type: MEDIA_TYPE.YOUTUBE,
-        src: 'RzHNzeDBbFU?si=bXkN8jSLpTuTrvqM',
-        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
-      },
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos11.jpg',
-        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
-      },
-
       {
         type: MEDIA_TYPE.TEXT,
         size: MEDIA_SIZE.MEDIUM,
         header: "No-input [ Live A/V 2022 ]",
-        externalLink: "youtube.com",
         texts: [
           {
             language: 'es',
@@ -1372,10 +1466,19 @@ The premiere and continuous screening will take place throughout October at the 
           },
         ]
       },
-
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/argos/Argos7.webp',
+        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
+      },
+      {
+        type: MEDIA_TYPE.YOUTUBE,
+        src: 'RzHNzeDBbFU?si=bXkN8jSLpTuTrvqM',
+        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos11.webp',
         alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
       },
 
@@ -1383,21 +1486,8 @@ The premiere and continuous screening will take place throughout October at the 
 
 
       {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos5.webp',
-        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
-      },
-
-      {
-        type: MEDIA_TYPE.YOUTUBE,
-        src: '43q-drprP40?si=hrd-9ut9M4kEhZtA',
-        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
-      },
-
-      {
         type: MEDIA_TYPE.TEXT,
         header: "Orfeo [ Live A/V 2023 ]",
-        // externalLink: "youtube",
         texts: [
           {
             language: 'es',
@@ -1410,30 +1500,25 @@ The premiere and continuous screening will take place throughout October at the 
           },
         ]
       },
-
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/argos/Argos13.webp',
         alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
-
-
       {
         type: MEDIA_TYPE.YOUTUBE,
-        src: 'I7ysXdbH-M8?si=QdK0X2hdK_YM6IkG',
-        alt: 'Proyecto Argos Audiovisual Body Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+        src: '43q-drprP40?si=hrd-9ut9M4kEhZtA',
+        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
       },
-
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos9.webp',
-        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
+        src: '/images/argos/Argos5.webp',
+        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
       },
 
       {
         type: MEDIA_TYPE.TEXT,
         header: "Audiovisual Body [Live A/V 2023]",
-        // externalLink: "youtube",
         texts: [
           {
             language: 'es',
@@ -1448,7 +1533,17 @@ The premiere and continuous screening will take place throughout October at the 
 
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos14.webp',
+        src: '/images/argos/Argos16.webp',
+        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
+      },
+      {
+        type: MEDIA_TYPE.YOUTUBE,
+        src: 'I7ysXdbH-M8?si=QdK0X2hdK_YM6IkG',
+        alt: 'Proyecto Argos Audiovisual Body Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos9.webp',
         alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
 
