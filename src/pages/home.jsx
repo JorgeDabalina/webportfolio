@@ -61,10 +61,16 @@ function Home() {
       pathNav: '/projects/horizontedesucesos',
     },
     {
-      src: '/images/home/homeEntrelazada.gif',
+      src: '/images/home/homeIntraseñales.gif',
       alt: '',
-      text: "Exploración entrelazada (2021)",
-      pathNav: '/projects/exploracionEntrelazada',
+      text: "Intra-señales (2023)",
+      pathNav: '/projects/intra-señales',
+    },
+        {
+      src: '/images/home/homeManipulando.gif',
+      alt: '',
+      text: "Manipulando la luz (2024)",
+      pathNav: '/projects/manipulandolaluz',
     },
     {
       src: '/images/home/homeIntraseñales.gif',
